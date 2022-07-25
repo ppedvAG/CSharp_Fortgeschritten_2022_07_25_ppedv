@@ -1,6 +1,6 @@
 ﻿namespace Sprachfeatures;
 
-internal class Program
+internal class Sprachfeatures
 {
 	static void Main(string[] args)
 	{
