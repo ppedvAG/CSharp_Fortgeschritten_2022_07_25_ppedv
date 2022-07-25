@@ -57,7 +57,7 @@ internal class Program
 			{ Vorgesetzter.Vorgesetzter.Vorgesetzter.Vorgesetzter: null } => null //Neue Pattern mit .
 		};
 
-		string str3 = $"Das ist ein Hochkomma \{\} (\")";
+		string str3 = $"Das ist ein Hochkomma {{ (\")";
 	}
 
 	public static void BennanteArgumente(int x = 0, int y = 0, int z = 0) { }

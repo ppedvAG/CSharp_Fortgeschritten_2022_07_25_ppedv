@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sprachfeatures", "Sprachfea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{40EA7702-A4D4-4CB5-9B81-FD9895780494}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesEvents", "DelegatesEvents\DelegatesEvents.csproj", "{FAC7800C-E662-4BC6-851E-DB5CDE837B89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40EA7702-A4D4-4CB5-9B81-FD9895780494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40EA7702-A4D4-4CB5-9B81-FD9895780494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40EA7702-A4D4-4CB5-9B81-FD9895780494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC7800C-E662-4BC6-851E-DB5CDE837B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC7800C-E662-4BC6-851E-DB5CDE837B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC7800C-E662-4BC6-851E-DB5CDE837B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC7800C-E662-4BC6-851E-DB5CDE837B89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
