@@ -1,6 +1,6 @@
 ﻿namespace DelegatesEvents;
 
-internal class Program
+internal class Delegates
 {
 	public delegate void Vorstellungen(string name); //Definition von Delegate, speichert Referenzen zu Methoden, können zur Laufzeit hinzugefügt oder weggenommen werden
 
