@@ -1,6 +1,6 @@
 ﻿namespace Generics;
 
-internal class Program
+internal class Generics
 {
 	static void Main(string[] args)
 	{
