@@ -37,6 +37,8 @@ internal class Sprachfeatures
 			throw new Exception();
 		}
 
+		string str1 = text != null ? text : throw new Exception(); //Kürzung mit ? Operator
+
 		string str2 = text ?? throw new Exception(); //Null-Coalescing Operator
 
 		List<string> list = new();
