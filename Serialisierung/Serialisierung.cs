@@ -77,7 +77,10 @@ internal class Serialisierung
 			new Fahrzeug(11, 125, FahrzeugMarke.Audi)
 		};
 
-		string json = JsonConvert.SerializeObject(fahrzeuge); //Json String aus Objektliste generieren (WICHTIG: Alle Felder zum Serialisieren müssen Properties sein)
+		JsonSerializerSettings settings = new JsonSerializerSettings(); //Einstellungen beim Serialisieren vornehmen
+		settings.Formatting = Newtonsoft.Json.Formatting.Indented;
+
+		string json = JsonConvert.SerializeObject(fahrzeuge, settings); //Json String aus Objektliste generieren (WICHTIG: Alle Felder zum Serialisieren müssen Properties sein)
 		File.WriteAllText(filePath, json); //Json auf Festplatte schreiben
 
 		string readJson = File.ReadAllText(filePath); //File wieder einlesen
@@ -120,7 +123,9 @@ internal class Serialisierung
 			new Fahrzeug(11, 125, FahrzeugMarke.Audi)
 		};
 
-		string json = System.Text.Json.JsonSerializer.Serialize(fahrzeuge); //Genau wie bei Newtonsoft Json (WICHTIG: Alle Felder zum Serialisieren müssen Properties sein)
+		JsonSerializerOptions options = new JsonSerializerOptions(); //Einstellungen beim Serialisieren
+
+		string json = System.Text.Json.JsonSerializer.Serialize(fahrzeuge, options); //Genau wie bei Newtonsoft Json (WICHTIG: Alle Felder zum Serialisieren müssen Properties sein)
 		File.WriteAllText(filePath, json);
 
 		string readJson = File.ReadAllText(filePath);
