@@ -21,17 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{319F1194-4154-41A7-8D27-DFCBB6557C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CD545F69-236B-46CE-994D-CC6650EEEC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{CD545F69-236B-46CE-994D-CC6650EEEC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginBase", "PluginBase\PluginBase.csproj", "{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{C10C7603-8005-414F-87B9-6B277873EADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin", "Plugin\Plugin.csproj", "{C10C7603-8005-414F-87B9-6B277873EADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginClient", "PluginClient\PluginClient.csproj", "{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{04B3A957-248C-4BF5-AEC8-5874E2BD63E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", "{04B3A957-248C-4BF5-AEC8-5874E2BD63E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonstigeThemen", "SonstigeThemen\SonstigeThemen.csproj", "{551D14D6-DA8F-4344-AAEF-2BFFB3558E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonstigeThemen", "SonstigeThemen\SonstigeThemen.csproj", "{551D14D6-DA8F-4344-AAEF-2BFFB3558E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{25075E2A-18E4-41B3-9DF9-ACA5F76FEF3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{551D14D6-DA8F-4344-AAEF-2BFFB3558E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551D14D6-DA8F-4344-AAEF-2BFFB3558E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551D14D6-DA8F-4344-AAEF-2BFFB3558E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25075E2A-18E4-41B3-9DF9-ACA5F76FEF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25075E2A-18E4-41B3-9DF9-ACA5F76FEF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25075E2A-18E4-41B3-9DF9-ACA5F76FEF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25075E2A-18E4-41B3-9DF9-ACA5F76FEF3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
