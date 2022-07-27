@@ -80,7 +80,7 @@ internal class Program
 
 		Console.WriteLine(fahrzeuge.Aggregate("", (agg, fzg) => agg + $"Das Fahrzeug hat die Marke {fzg.Marke} und kann maximal {fzg.MaxGeschwindigkeit} fahren.\n")); //Schöne Ausgabe der Liste
 
-		Console.WriteLine(fahrzeuge.Aggregate(new StringBuilder(), (agg, fzg) => agg.AppendLine($"Das Fahrzeug hat die Marke {fzg.Marke} und kann maximal {fzg.MaxGeschwindigkeit} fahren.\n"));
+		Console.WriteLine(fahrzeuge.Aggregate(new StringBuilder(), (agg, fzg) => agg.AppendLine($"Das Fahrzeug hat die Marke {fzg.Marke} und kann maximal {fzg.MaxGeschwindigkeit} fahren.\n")));
 
 		Console.WriteLine(fahrzeuge.Aggregate(0, (agg, fzg) => agg + fzg.MaxGeschwindigkeit / 3)); //Auch auf int kann man aggregieren
 
