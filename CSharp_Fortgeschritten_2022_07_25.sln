@@ -11,15 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesEvents", "Delegate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{4A8B6822-45B8-48E7-8A4E-01DAC07EA1AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{5AE56239-3F92-497C-B4F8-A54BE8357F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{5AE56239-3F92-497C-B4F8-A54BE8357F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{1EA815EF-325E-468E-9CAD-933933FB8CD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithreading\Multithreading.csproj", "{1EA815EF-325E-468E-9CAD-933933FB8CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{3C344643-AAEC-4116-A7CA-01D0F2F92558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitasking", "Multitasking\Multitasking.csproj", "{3C344643-AAEC-4116-A7CA-01D0F2F92558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{8DFD4D4B-391F-4455-9B66-80D3AA1BE731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{8DFD4D4B-391F-4455-9B66-80D3AA1BE731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{319F1194-4154-41A7-8D27-DFCBB6557C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{319F1194-4154-41A7-8D27-DFCBB6557C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CD545F69-236B-46CE-994D-CC6650EEEC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{C10C7603-8005-414F-87B9-6B277873EADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{319F1194-4154-41A7-8D27-DFCBB6557C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319F1194-4154-41A7-8D27-DFCBB6557C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319F1194-4154-41A7-8D27-DFCBB6557C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD545F69-236B-46CE-994D-CC6650EEEC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD545F69-236B-46CE-994D-CC6650EEEC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD545F69-236B-46CE-994D-CC6650EEEC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD545F69-236B-46CE-994D-CC6650EEEC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E105DA6B-7AD3-4C87-AE0F-1E578876A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10C7603-8005-414F-87B9-6B277873EADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10C7603-8005-414F-87B9-6B277873EADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10C7603-8005-414F-87B9-6B277873EADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10C7603-8005-414F-87B9-6B277873EADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107F7F26-4DAC-4B65-B7CD-4AD4C350F493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
